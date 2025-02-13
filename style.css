@@ -1,0 +1,108 @@
+body{
+    background-image: url("background.webp");
+    color: #20C20E;	
+    font-family: "Monaco", "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+}
+
+.wrapper{
+    background-color: #110E0E;
+    min-height: 100vh;
+    height: fit-content;
+    padding: 0;
+    width: 60vw;
+
+
+}
+
+button{
+    background-color: #20C20E;
+    color: #000000;
+    border: 0px;
+    border-radius: 20px;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    font-weight: bold;
+    font-family: "Monaco", "Courier New", monospace;
+}
+
+input::placeholder{
+    color: #1F1F1F;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+}
+input{
+    background-color: #6F6F6F;
+    border: 0px;
+    border-radius: 20px;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+select{
+    background-color: #6F6F6F;
+    border-radius: 20px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;			
+}
+h1{
+    text-align: center;
+    font-size: 32px;
+    padding-top: 1rem;
+}
+
+.gender-m{
+    margin-right: 3.5rem;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-element{
+    display: flex;
+    margin-top: 0.5rem;
+    width: 21rem;
+    justify-content: space-between;		
+}
+
+.buttons{
+    width: 12.5rem;
+    margin-top: 1rem;
+}
+
+.no-m-top{
+    margin-top: 0;
+}
+
+.row{
+    display:flex;
+}
+
+.gender{
+    font-size: 12px;
+}
+
+.fav{
+    font-size: 12px;
+}
+
+#favTit{
+    margin-right: 1.5rem;
+}
+
+.m-top{
+    margin-top: 2rem;
+}
